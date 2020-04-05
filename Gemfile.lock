@@ -83,7 +83,6 @@ DEPENDENCIES
   jekyll-watch
   kramdown
   rouge
-  wdm (>= 0.1.0)
 
 BUNDLED WITH
    2.1.4
