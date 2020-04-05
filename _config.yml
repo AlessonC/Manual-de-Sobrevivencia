@@ -2,10 +2,10 @@ title: Manual de Sobrevivência
 description: Como sobreviver dentro do curso de Sistemas de Informação do IFS
 author: Manual de Sobrevivência
 logo: /static/img/avatar.png
-github: https://github.com/CaioAReis/hcz-jekyll-blog
+github: https://github.com/AlessonC/Manual-de-Sobrevivencia/
 about:
 
-baseurl: ""
+baseurl: "/manualdesobrevivencia-site"
 url: ""
 
 allowsearch: true

@@ -1,0 +1,45 @@
+language: ruby
+os: linux
+rvm:
+ - 2.6.5
+cache: bundler
+before_install:
+  - gem install bundler
+branches:
+  only:
+    - master
+    - desenv
+stages:
+  - name: Test
+    if: branch != master  
+  - name: Deploy
+    if: branch = master
+jobs:
+  include:
+    - stage: Test
+      script:
+        - bundle exec jekyll build --baseurl $URL_TEST
+      deploy:
+        provider: pages
+        edge: true
+        local_dir: ./_site
+        # skip_cleanup: true
+        github-token: $GITHUB_TOKEN
+        keep_history: false
+        on:
+          branch: desenv
+        target-branch: gh-pages
+        
+    - stage: Deploy
+      script:
+        - JEKYLL_ENV=production bundle exec jekyll build
+      deploy:
+        provider: pages
+        edge: true
+        local_dir: ./_site
+        github-token: $GITHUB_TOKEN
+        keep_history: false
+        repo: $repo_deploy
+        on:
+          branch: $repo_deploy_branch
+        target-branch: $repo_deploy_target
