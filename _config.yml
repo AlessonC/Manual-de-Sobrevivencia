@@ -5,7 +5,7 @@ logo: /static/img/avatar.png
 github: https://github.com/AlessonC/Manual-de-Sobrevivencia/
 about:
 
-baseurl: "/Manual-de-Sobrevivencia/"
+baseurl: "/Manual-de-Sobrevivencia"
 url: #
 
 allowsearch: true
