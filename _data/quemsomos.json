@@ -2,25 +2,25 @@
 	{
 		"name": "Álesson Carlos",
 		"image": "alesson.jpg",
-		"url": "/sobreAlesson/",
+		"url": "/Manual-de-Sobrevivencia/sobreAlesson/",
 		"tags": ["Aluno"]
 	},
 	{
 		"name": "Caio Almeida",
 		"image": "caio.jpg",
-		"url": "/sobreCaio/",
+		"url": "/Manual-de-Sobrevivencia/sobreCaio/",
 		"tags": ["Aluno"]
 	},
 	{
 		"name": "Catuxe Varjão",
 		"image": "catuxe.jpg",
-		"url": "/sobreCatuxe/",
+		"url": "/Manual-de-Sobrevivencia/sobreCatuxe/",
 		"tags": ["Professor"]
 	},
 	{
 		"name": "Francisco Rodrigues",
 		"image": "francisco.jpg",
-		"url": "/sobreFrancisco/",
+		"url": "/Manual-de-Sobrevivencia/sobreFrancisco/",
 		"tags": ["Professor"]
 	}
 
